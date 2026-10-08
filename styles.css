@@ -22,3 +22,10 @@
 
 /* Inscripción de talleristas y líneas temáticas */
 .workshop-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:24px}.workshop-heading>div:first-child{max-width:760px}.workshop-heading h2{font-size:27px;margin:12px 0 8px}.workshop-heading p{margin:0 0 5px}.workshop-action{flex:0 0 auto;padding-bottom:5px}.topic-heading{font-size:17px;margin:24px 0 5px}.topic-lead{font-size:14px;margin:0 0 15px}.topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 16px;list-style:none;padding:0;margin:0}.topic-grid li{border-left:3px solid #04c9ed;background:#f3f8ff;padding:12px 14px;border-radius:5px}.topic-grid strong{display:block;color:#09265f;font-size:14px}.topic-grid span{display:block;color:#506486;font-size:13px;margin-top:3px}.workshop-reminder{background:#e9faff;border-radius:8px;padding:12px 16px;margin:17px 0 0!important;font-size:14px}.attendee-panel{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.attendee-panel h2{margin:0}.attendee-panel p{flex:1 1 360px;margin:0}.attendee-panel .btn{white-space:nowrap}@media(max-width:900px){.workshop-heading{display:block}.workshop-action{margin-top:18px}}@media(max-width:680px){.topic-grid{grid-template-columns:1fr}.attendee-panel{display:block}.attendee-panel>*{margin-bottom:12px!important}.attendee-panel .btn{white-space:normal}}
+
+/* Acceso universal gratuito: mensaje principal de la portada */
+.free-feature{display:flex;align-items:center;gap:24px;padding:22px 27px;margin:22px 0 16px;background:linear-gradient(110deg,#00c5ed,#2ce3cf);color:#051c58;border-radius:14px;box-shadow:0 10px 24px rgba(0,116,195,.12)}
+.free-title{font-size:clamp(21px,2.4vw,32px);font-weight:900;line-height:1.12;flex:0 0 43%}
+.free-feature p{font-size:16px;line-height:1.5;margin:0;font-weight:550}
+.hero .eyebrow{font-size:14px;letter-spacing:.085em;font-weight:900;color:#65f4ff}
+@media(max-width:760px){.free-feature{display:block;padding:20px}.free-feature p{margin-top:12px}}
