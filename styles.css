@@ -15,3 +15,7 @@
 .side a.current .symbol{background:rgba(255,255,255,.2);color:white}
 @media(max-width:1000px){.hero{grid-template-columns:1fr}.hero-image{height:240px;background-position:center 43%}.hero-copy{padding:35px}}
 @media(max-width:680px){.side{background:#fff;padding:10px;gap:8px}.side a{min-height:45px;font-size:12px;margin:0;padding:8px 10px;box-shadow:none}.side a .symbol{display:none}.side a.current{padding:8px 10px}.hero-image{height:195px}}
+
+/* Cuatro identidades institucionales, sin el logo AMIT duplicado */
+.logo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:760px){.logo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
