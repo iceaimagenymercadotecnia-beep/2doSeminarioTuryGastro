@@ -29,3 +29,11 @@
 .free-feature p{font-size:16px;line-height:1.5;margin:0;font-weight:550}
 .hero .eyebrow{font-size:14px;letter-spacing:.085em;font-weight:900;color:#65f4ff}
 @media(max-width:760px){.free-feature{display:block;padding:20px}.free-feature p{margin-top:12px}}
+
+.registration-soon{display:inline-block;background:#12c8eb;color:#062357;border-radius:9px;padding:15px 21px;font-size:14px;font-weight:900;letter-spacing:.025em;cursor:default}
+
+/* Fecha límite para talleristas */
+.deadline-banner{margin-top:18px;padding:16px 20px;background:#dff9fd;border-left:6px solid #00bbdc;border-radius:9px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;color:#06266b}
+.deadline-banner strong{font-size:clamp(16px,1.7vw,21px);line-height:1.3}
+.deadline-banner span{font-size:13px;font-weight:700;color:#21538a}
+.deadline-caption{font-size:13px;font-weight:750;color:#00519c;margin:10px 0 0;text-align:center}
