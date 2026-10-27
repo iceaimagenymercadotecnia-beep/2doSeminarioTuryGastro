@@ -37,3 +37,15 @@
 .deadline-banner strong{font-size:clamp(16px,1.7vw,21px);line-height:1.3}
 .deadline-banner span{font-size:13px;font-weight:700;color:#21538a}
 .deadline-caption{font-size:13px;font-weight:750;color:#00519c;margin:10px 0 0;text-align:center}
+
+/* Inscripciones de asistentes: bloque de alto contraste */
+.registration-highlight{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:25px 28px;margin:17px 0 14px;border-radius:15px;background:linear-gradient(105deg,#00c8ec 0%,#20e2bd 100%);color:#041c4d;box-shadow:0 9px 22px rgba(0,47,126,.12)}
+.registration-kicker{display:block;font-size:12px;font-weight:900;letter-spacing:.11em;margin-bottom:8px}
+.registration-highlight h2{font-size:clamp(23px,3vw,36px);line-height:1.08;letter-spacing:-.025em;margin:0 0 9px;font-weight:900;color:#071d59}
+.registration-highlight h2 span{color:#005ec9}
+.registration-highlight p{margin:0;font-size:14px;line-height:1.5;max-width:580px}
+.registration-btn{flex-shrink:0;background:#092d91!important;color:white!important;text-align:center;white-space:normal;min-width:190px}
+.registration-date-inline{display:flex;flex-direction:column;gap:6px;background:#ddf9ff;color:#07236b;border-left:6px solid #02c9e5;border-radius:10px;padding:16px 20px;margin:15px 0;font-weight:900}
+.registration-date-inline span{font-size:12px;letter-spacing:.1em}.registration-date-inline strong{font-size:clamp(22px,3vw,31px);line-height:1.2}
+.attendance-rule{padding:13px 16px;background:#f0f6ff;border-radius:10px}
+@media(max-width:800px){.registration-highlight{flex-direction:column;align-items:stretch;padding:20px}.registration-btn{width:100%;min-width:0}.registration-highlight h2{font-size:27px}}
