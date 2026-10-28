@@ -102,3 +102,27 @@ body{font-size:15px;line-height:1.42}
 .session-card.pending .session-date{background:linear-gradient(145deg,#496584,#6c819a)}
 .session-card.pending .session-tag{background:#edf2f8;color:#52647b}
 @media(min-width:1100px){.session-card{grid-template-columns:155px minmax(0,1fr)}.session-date{padding:13px 16px}}
+
+/* Resultados de aprendizaje: programa académico */
+.session-learning{margin-top:10px;padding:9px 12px;background:#f0f8ff;border-left:3px solid #00b9d9;border-radius:7px}.session-learning strong{display:block;color:#06448d;font-size:12px;margin-bottom:3px}.session-learning p{margin:0;color:#213e61;font-size:13px;line-height:1.45}.session-body .session-learning+.session-learning{margin-top:6px}
+
+/* Programa compacto con información desplegable */
+.program-wrap{display:grid;gap:10px}
+.session-card{margin:0!important;min-height:0!important}
+.session-body{padding:14px 18px!important}
+.session-body h2{margin:5px 0 5px!important;line-height:1.22!important;font-size:clamp(16px,1.65vw,19px)!important}
+.session-body .presenter,.session-body .institution{margin:2px 0!important;line-height:1.35!important}
+.session-tag{margin-bottom:3px!important}
+.session-details{margin-top:9px;border-top:1px solid #e1e9f7;padding-top:8px}
+.session-details summary{cursor:pointer;display:inline-flex;align-items:center;gap:8px;font-weight:800;color:#0064c7;font-size:14px;list-style:none}
+.session-details summary::-webkit-details-marker{display:none}
+.session-details summary:after{content:'+';display:inline-grid;place-items:center;background:#e5f7fd;color:#007cba;border-radius:50%;width:22px;height:22px;font-size:18px}
+.session-details[open] summary:after{content:'−'}
+.session-details .session-learning{margin-top:9px!important;padding:8px 11px!important}
+.session-details .session-learning p{margin:3px 0 0!important}
+.session-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:10px}
+.session-action{border-radius:9px;padding:10px 14px;font-size:13px;font-weight:800;text-align:center;display:inline-flex;align-items:center;justify-content:center;min-height:40px}
+.session-action.join{background:#0869d0;color:white}
+.session-action.attend{background:#02b7c9;color:#002b49}
+.session-action.is-pending{opacity:.53;cursor:not-allowed}
+@media(max-width:650px){.session-actions{flex-direction:column}.session-action{width:100%}.session-body{padding:12px!important}}
